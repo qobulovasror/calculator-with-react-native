@@ -62,7 +62,6 @@ const Keyboard = (props) => {
         (result.toString().length>15)? 
           setOper(result.toString().slice(0, 15)):
           setOper(result.toString())
-          console.log(result);
           return result;
       }
   };
